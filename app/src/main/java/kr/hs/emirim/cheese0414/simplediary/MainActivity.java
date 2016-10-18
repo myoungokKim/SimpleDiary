@@ -67,7 +67,6 @@ public class MainActivity extends AppCompatActivity {
             in.close();
             diaryContents=new String(txt);
             butSave.setText("수정하기");
-
         } catch (IOException e) {
             editDiary.setHint("읽어올 일기가 없음");
             butSave.setText("새로 저장");
